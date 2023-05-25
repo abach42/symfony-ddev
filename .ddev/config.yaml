@@ -1,7 +1,7 @@
 name: symfony-ddev
 type: php
 docroot: app/public
-php_version: "8.0"
+php_version: "8.2"
 webserver_type: nginx-fpm
 router_http_port: "80"
 router_https_port: "443"
@@ -18,7 +18,7 @@ web_environment: []
 hooks:
   post-start:
     - exec: wget https://get.symfony.com/cli/installer -O - | bash
-    - exec: mv ~/.symfony/bin/symfony /usr/local/bin/symfony
+    - exec: mv ~/.symfony5/bin/symfony /usr/local/bin/symfony
 
 # Key features of ddev's config.yaml:
 
