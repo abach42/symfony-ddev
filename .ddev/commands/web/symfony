@@ -1,0 +1,8 @@
+#!/bin/bash
+
+## Description: Run Symfony CLI inside the web container
+## Usage: symfony [flags] [args]
+## Example: "ddev symfony ..."
+## ProjectTypes: php
+
+symfony "$@"
