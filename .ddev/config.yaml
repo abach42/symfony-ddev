@@ -20,6 +20,8 @@ hooks:
     - exec: wget https://get.symfony.com/cli/installer -O - | bash
     - exec: mv ~/.symfony5/bin/symfony /usr/local/bin/symfony
 
+working_dir:
+   web: /var/www/html/app
 # Key features of ddev's config.yaml:
 
 # name: <projectname> # Name of the project, automatically provides
